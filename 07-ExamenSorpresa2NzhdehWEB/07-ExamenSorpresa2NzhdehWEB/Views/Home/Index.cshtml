@@ -1,19 +1,19 @@
 ﻿@{
-    ViewData["Title"] = "Index";
+    Layout = null;
 }
 
-<h1>Index</h1>
+<!DOCTYPE html>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-
-<form>
-    <p>
-        Title: <input type="text" asp-for="SearchString" />
-        <input type="submit" value="Filter" />
-    </p>
-</form>
-
-<table class="table">
-    @*Markup removed for brevity.*@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+    </head>
+    <body>
+        <div>
+            @ViewBag.texto 
+            <br/>
+            @Html.ActionLink("Pincha aqui", "Index", "Home", new { esMiPrimeraVez = true }, null)
+        </div>
+    </body>
+</html>
