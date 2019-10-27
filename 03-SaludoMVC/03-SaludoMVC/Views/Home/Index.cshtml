@@ -1,0 +1,21 @@
+﻿@model _03_SaludoMVC.Models.ClsPersona
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@ViewData["Saludando"]
+
+<br/>
+
+<p>
+    Persona que pasamos por controller
+    <br />
+    Nombre: @Model.Nombre
+    <br />
+    Apellidos: @Model.Apellidos
+    <br />
+    Fecha Nacimiento: @Model.FechaNac.ToLongDateString() @*esto te da la fecha en formato largo*@
+</p>

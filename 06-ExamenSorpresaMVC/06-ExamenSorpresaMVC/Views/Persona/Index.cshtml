@@ -1,0 +1,30 @@
+﻿@model _06_ExamenSorpresaMVC.Models.ClsPersonaConListadoDeDepartamentos
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editar</title>
+</head>
+<body>
+    <div>
+        <h2>Editar</h2>
+
+        <form method="post">
+            @Html.TextBoxFor(no => Model.Nombre) <br/>
+            @Html.TextBoxFor(pa => Model.Apellidos) <br />
+
+          
+            @Html.DropDownListFor(d => d.IdDepartamento, new SelectList(Model.ListadoDepartamentos, "Id", "Nombre", Model.IdDepartamento))
+
+            <input type="submit" value="Enviar" />
+        </form>
+    </div>
+</body>
+</html>

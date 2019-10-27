@@ -9,14 +9,15 @@ namespace _06_ExamenSorpresaMVC.Models
     {
         private String _nombre;
 
-        public ClsPersonaConNombreDeDepartamento()
+        public ClsPersonaConNombreDeDepartamento() : base()
         {
             this._nombre = "Nombre";
         }
 
-        public ClsPersonaConNombreDeDepartamento(string nombre)
+        public ClsPersonaConNombreDeDepartamento(int id, String nombrePersona, String apellidos, int idDepartamento,string _nombre) : 
+            base(id, nombrePersona,apellidos, idDepartamento)
         {
-            this._nombre = nombre;
+            this._nombre = _nombre;
         }
 
         public string NombreDepartamento

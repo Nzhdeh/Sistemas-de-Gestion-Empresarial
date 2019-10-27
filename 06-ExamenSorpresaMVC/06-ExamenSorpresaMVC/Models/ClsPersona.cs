@@ -73,6 +73,10 @@ namespace _06_ExamenSorpresaMVC.Models
             {
                 return _idDepartamento;
             }
+            set
+            {
+                _idDepartamento = value;
+            }
         }
     }
 }
