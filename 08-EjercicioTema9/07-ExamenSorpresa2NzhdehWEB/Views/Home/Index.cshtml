@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+    </head>
+    <body>
+        <div>
+            @ViewBag.Text;
+            <br />
+            @Html.ActionLink("Pinchar aqui", "Index", "Home", new { esMiPrimeraVez = true }, null)
+            @*<a href="@Url.Action("Index","Home")?esMiPrimeraVez=true",null>Pincha aqui</a>*@
+        </div>
+    </body>
+</html>
