@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "ListaPersonas";
+}
+
+<h2>ListaPersonas</h2>
+
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Fecha de nacimiento</th>
+    </tr>
+
+    @foreach (var persona in Model)
+    {
+        <tr>
+            <td>@persona.Nombre</td>
+            <td>@persona.Apellidos</td>
+            <td>@persona.FechaNac</td>
+        </tr>
+    }
+</table>
+@Html.ActionLink("Volver atras", "Index")

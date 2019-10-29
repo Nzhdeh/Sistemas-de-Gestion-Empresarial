@@ -1,7 +1,23 @@
-﻿
+﻿@model _06_ExamenSorpresaMVC.Models.ClsPersonaConNombreDeDepartamento
+
 @{
-    ViewBag.Title = "Persona";
+    Layout = null;
 }
 
-<h2>Persona</h2>
+<!DOCTYPE html>
 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PersonaModificada</title>
+</head>
+<body>
+    <div>
+        <h2>PersonaModificada</h2>
+
+        @Model.Nombre <br />
+        @Model.Apellidos <br />
+        @Model.NombreDepartamento
+    </div>
+</body>
+</html>
