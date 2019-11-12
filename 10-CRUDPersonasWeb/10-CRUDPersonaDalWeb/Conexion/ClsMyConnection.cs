@@ -32,7 +32,7 @@ namespace _10_CRUDPersonaDalWeb.Conexion
 
         //Constructores
 
-        public clsMyConnection()
+        public ClsMyConnection()
         {
             // this.server = "(local)";
             this.server = "nzhdeh.database.windows.net";
@@ -44,7 +44,7 @@ namespace _10_CRUDPersonaDalWeb.Conexion
 
         }
         //Con parámetros por si quisiera cambiar las conexiones
-        public clsMyConnection(String server, String database, String user, String pass)
+        public ClsMyConnection(String server, String database, String user, String pass)
         {
             this.server = server;
             this.dataBase = database;
