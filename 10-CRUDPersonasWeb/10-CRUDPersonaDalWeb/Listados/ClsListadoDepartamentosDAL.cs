@@ -2,7 +2,6 @@
 using _10_CRUDPersonaEntidadesWeb;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -10,25 +9,25 @@ using System.Threading.Tasks;
 
 namespace _10_CRUDPersonaDalWeb.Listados
 {
-    public class ClsListadoPersonasDAL
+    class ClsListadoDepartamentosDAL
     {
         /// <summary>
-        /// devuelve la lista de persona que estan en la base de datos
+        /// sirve para obtener el listado de departamentos 
         /// </summary>
         /// <returns>
-        /// listado de personas
+        /// listado de departamenos
         /// </returns>
-        public List<ClsPersona> ObtenerListadoPersonasDAL()
+        public List<ClsDepartamento> ObtenerListadoDepartamentosDAL()
         {
             ClsMyConnection miConexion;
 
-            List<ClsPersona> listadoPersonas = new List<ClsPersona>();
+            List<ClsDepartamento> listadoDepartamentos = new List<ClsDepartamento>();
 
             SqlCommand miComando = new SqlCommand();
 
             SqlDataReader miLector;
 
-            ClsPersona oPersona;
+            ClsDepartamento departamento;
 
             SqlConnection conexion;
 
@@ -37,7 +36,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
             try
             {
                 conexion = miConexion.getConnection();
-                miComando.CommandText = "SELECT * FROM personas";
+                miComando.CommandText = "SELECT * FROM departamentos";
 
                 miComando.Connection = conexion;
                 miLector = miComando.ExecuteReader();
@@ -47,14 +46,10 @@ namespace _10_CRUDPersonaDalWeb.Listados
                 {
                     while (miLector.Read())
                     {
-                        oPersona = new ClsPersona();
-                        oPersona.IdPersona = (int)miLector["IDPersona"];
-                        oPersona.NombrePersona = (string)miLector["Nombre"];
-                        oPersona.ApellidosPersona = (string)miLector["Apellidos"];
-                        oPersona.FechaNacimientoPersona = (DateTime)miLector["FechaNacimientoPersona"];
-                        oPersona.TelefonoPersona = (string)miLector["telefono"];
-                        oPersona.FotoPersona = null;//hay que recuperar la imagen
-                        listadoPersonas.Add(oPersona);
+                        departamento = new ClsDepartamento();
+                        departamento.IdDepartamentoa = (int)miLector["ID"];
+                        departamento.NombreDepartamento = (string)miLector["Nombre"];
+                        listadoDepartamentos.Add(departamento);
                     }
                 }
 
@@ -66,8 +61,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
             {
                 throw exSql;
             }
-
-            return (listadoPersonas);
+            return (listadoDepartamentos);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using _10_CRUDPersonaEntidadesWeb;
+﻿using _10_CRUDPersonaDalWeb.Listados;
+using _10_CRUDPersonaEntidadesWeb;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,13 @@ namespace _10_CRUDPersonaBLWeb.Listados
     {
         public List<ClsPersona> ListadoPersonas()
         {
-            return null;
+            List<ClsPersona> lista;
+
+            ClsListadoPersonasDAL listadoPersonasDAL = new ClsListadoPersonasDAL();
+
+            lista = listadoPersonasDAL.ObtenerListadoPersonasDAL();
+
+            return lista;
         }
     }
 }

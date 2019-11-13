@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -18,8 +17,8 @@ namespace _10_CRUDPersonaEntidadesWeb
             this.FotoPersona = new List<byte>();
         }
 
-        [Required]//esto es para que te lo pida si o si
-        public int IdPersona { get; }
+        
+        public int IdPersona { get; set; }
         public String NombrePersona { get; set; }
         public String ApellidosPersona { get; set; }
         public DateTime FechaNacimientoPersona { get; set; }
