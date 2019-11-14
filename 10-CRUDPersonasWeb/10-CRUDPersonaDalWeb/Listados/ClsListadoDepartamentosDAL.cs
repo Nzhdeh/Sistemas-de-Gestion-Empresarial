@@ -15,7 +15,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
         /// sirve para obtener el listado de departamentos 
         /// </summary>
         /// <returns>
-        /// listado de departamenos
+        /// AN devuelve listado de departamenos
         /// </returns>
         public List<ClsDepartamento> ObtenerListadoDepartamentosDAL()
         {
@@ -57,11 +57,11 @@ namespace _10_CRUDPersonaDalWeb.Listados
                 miConexion.closeConnection(ref conexion);
             }
 
-            catch (SqlException exSql)
+            catch (SqlException se)
             {
-                throw exSql;
+                throw se;
             }
-            return (listadoDepartamentos);
+            return listadoDepartamentos;
         }
     }
 }

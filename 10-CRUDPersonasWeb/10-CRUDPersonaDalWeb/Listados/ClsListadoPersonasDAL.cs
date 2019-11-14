@@ -16,7 +16,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
         /// devuelve la lista de persona que estan en la base de datos
         /// </summary>
         /// <returns>
-        /// listado de personas
+        /// AN devuelve listado de personas
         /// </returns>
         public List<ClsPersona> ObtenerListadoPersonasDAL()
         {
@@ -37,7 +37,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
             try
             {
                 conexion = miConexion.getConnection();
-                miComando.CommandText = "SELECT * FROM personas";
+                miComando.CommandText = "SELECT * FROM Personas";
 
                 miComando.Connection = conexion;
                 miLector = miComando.ExecuteReader();
@@ -49,10 +49,10 @@ namespace _10_CRUDPersonaDalWeb.Listados
                     {
                         oPersona = new ClsPersona();
                         oPersona.IdPersona = (int)miLector["IDPersona"];
-                        oPersona.NombrePersona = (string)miLector["Nombre"];
-                        oPersona.ApellidosPersona = (string)miLector["Apellidos"];
+                        oPersona.NombrePersona = (string)miLector["NombrePersona"];
+                        oPersona.ApellidosPersona = (string)miLector["ApellidosPersona"];
                         oPersona.FechaNacimientoPersona = (DateTime)miLector["FechaNacimientoPersona"];
-                        oPersona.TelefonoPersona = (string)miLector["telefono"];
+                        oPersona.TelefonoPersona = (string)miLector["TelefonoPersona"];
                         oPersona.FotoPersona = null;//hay que recuperar la imagen
                         listadoPersonas.Add(oPersona);
                     }
@@ -67,7 +67,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
                 throw exSql;
             }
 
-            return (listadoPersonas);
+            return listadoPersonas;
         }
     }
 }

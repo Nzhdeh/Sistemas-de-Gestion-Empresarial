@@ -10,7 +10,7 @@ namespace _10_CRUDPersonaEntidadesWeb
         public ClsDepartamento()
         {
             this.IdDepartamentoa = 0;
-            this.NombreDepartamento = "No nombre";
+            this.NombreDepartamento = "por defecto";
         }
 
         public int IdDepartamentoa { get; set; }
