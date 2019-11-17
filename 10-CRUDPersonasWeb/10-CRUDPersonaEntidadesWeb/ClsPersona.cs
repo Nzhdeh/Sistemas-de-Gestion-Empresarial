@@ -15,6 +15,7 @@ namespace _10_CRUDPersonaEntidadesWeb
             this.FechaNacimientoPersona = new DateTime();
             this.TelefonoPersona = "6656555444";
             this.FotoPersona = new List<byte>();
+            this.IdDepartamento = 0;
         }
 
         
@@ -24,5 +25,6 @@ namespace _10_CRUDPersonaEntidadesWeb
         public DateTime FechaNacimientoPersona { get; set; }
         public String TelefonoPersona { get; set; }
         public List<Byte> FotoPersona { get; set; }
+        public int IdDepartamento { get; set; }
     }
 }

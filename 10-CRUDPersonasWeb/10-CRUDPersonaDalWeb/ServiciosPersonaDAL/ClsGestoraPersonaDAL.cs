@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
 {
-    class ClsGestoraPersonaDAL
+    public class ClsGestoraPersonaDAL
     {
         /// <summary>
         /// sirve para buscar a una persona por su id
@@ -115,10 +115,12 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
         }
 
         /// <summary>
-        /// 
+        /// elimina una persona por su id
         /// </summary>
         /// <param name="id"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// entero id
+        /// </returns>
         public int BorrarPersona(int id)
         {
             SqlConnection conexion;
@@ -143,10 +145,12 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
         }
 
         /// <summary>
-        /// 
+        /// inserta una persona en la bbdd
         /// </summary>
         /// <param name="persona"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// uan persona
+        /// </returns>
         public int InsertarPersonaDAL(ClsPersona persona)
         {
             int resultado = 0;

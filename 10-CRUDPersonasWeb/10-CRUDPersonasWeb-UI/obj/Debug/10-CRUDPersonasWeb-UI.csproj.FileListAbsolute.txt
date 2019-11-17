@@ -1,2 +1,3 @@
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.csprojAssemblyReference.cache
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.csproj.CoreCompileInputs.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.csprojAssemblyReference.cache

@@ -21,3 +21,4 @@ D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaBLWeb\bin\De
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaBLWeb\obj\Debug\10-CRUDPersonaBLWeb.csproj.CopyComplete
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaBLWeb\obj\Debug\10-CRUDPersonaBLWeb.dll
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaBLWeb\obj\Debug\10-CRUDPersonaBLWeb.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaBLWeb\obj\Debug\10-CRUDPersonaBLWeb.csprojAssemblyReference.cache

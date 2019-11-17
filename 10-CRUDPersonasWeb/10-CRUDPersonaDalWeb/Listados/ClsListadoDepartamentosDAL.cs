@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace _10_CRUDPersonaDalWeb.Listados
 {
-    class ClsListadoDepartamentosDAL
+    public class ClsListadoDepartamentosDAL
     {
         /// <summary>
         /// sirve para obtener el listado de departamentos 

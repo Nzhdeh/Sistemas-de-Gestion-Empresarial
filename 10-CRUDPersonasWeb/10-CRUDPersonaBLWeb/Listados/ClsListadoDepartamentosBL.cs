@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _10_CRUDPersonaBLWeb.Listados
 {
-    class ClsListadoDepartamentosBL
+    public class ClsListadoDepartamentosBL
     {
         public List<ClsDepartamento> ObtenerListadoDepartamentosBL()
         {
