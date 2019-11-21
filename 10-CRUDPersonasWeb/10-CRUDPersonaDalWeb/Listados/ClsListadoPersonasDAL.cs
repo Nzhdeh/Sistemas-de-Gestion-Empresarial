@@ -16,7 +16,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
         /// devuelve la lista de persona que estan en la base de datos
         /// </summary>
         /// <returns>
-        /// AN devuelve listado de personas
+        /// postcondiciones: AN devuelve listado de personas
         /// </returns>
         public List<ClsPersona> ObtenerListadoPersonasDAL()
         {
