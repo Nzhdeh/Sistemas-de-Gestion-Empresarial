@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _10_CRUDPersonaDalWeb.ServiciosPersonaDAL;
 
 namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
 {
@@ -22,9 +23,9 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
         /// </returns>
         public ClsPersona BuscarPersonaPorId(int id)
         {
-            ClsPersona persona;
+            ClsPersona persona =null;
             gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-            persona = gestoraPersonaDAL.buscarPersonaPorId(id);
+            //persona = gestoraPersonaDAL.buscarPersonaPorId(id);
 
             return persona;
         }
@@ -40,7 +41,7 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
         {
             int resultado = 0;
             ClsGestoraPersonaDAL gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-            resultado = gestoraPersonaDAL.updatePersonaDAL(persona);
+            //resultado = gestoraPersonaDAL.updatePersonaDAL(persona);
 
             return resultado;
         }
@@ -56,7 +57,7 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
         {
             int resultado = 0;
             ClsGestoraPersonaDAL gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-            resultado = gestoraPersonaDAL.deletePersona(id);
+           // resultado = gestoraPersonaDAL.deletePersona(id);
 
             return resultado;
         }
@@ -73,7 +74,7 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
             int resultado = 0;
 
             ClsGestoraPersonaDAL gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-            resultado = gestoraPersonaDAL.addPersonaDAL(persona);
+            //resultado = gestoraPersonaDAL.addPersonaDAL(persona);
 
             return resultado;
         }

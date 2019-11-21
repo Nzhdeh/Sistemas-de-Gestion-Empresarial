@@ -1,4 +1,5 @@
-﻿using _10_CRUDPersonaEntidadesWeb;
+﻿using _10_CRUDPersonaDalWeb.Listados;
+using _10_CRUDPersonaEntidadesWeb;
 using System;
 using System.Collections.Generic;
 using System.Linq;
