@@ -21,3 +21,4 @@ D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\obj\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.csproj.CopyComplete
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\obj\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.dll
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\obj\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.pdb
+D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\obj\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.csprojAssemblyReference.cache

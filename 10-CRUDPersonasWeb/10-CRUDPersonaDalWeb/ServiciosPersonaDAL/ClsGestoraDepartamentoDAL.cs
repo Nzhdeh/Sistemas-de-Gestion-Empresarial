@@ -37,7 +37,7 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
             try
             {
                 conexion = miConexion.getConnection();
-                miComando.CommandText = "SELECT * FROM departamentos WHERE ID = @id";
+                miComando.CommandText = "SELECT * FROM PD_Departamentos WHERE IdDepartamento = @id";
                 parameter = new SqlParameter();
                 parameter.ParameterName = "@id";
                 parameter.SqlDbType = System.Data.SqlDbType.Int;
@@ -97,7 +97,7 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
             try
             {
                 conexion = miConexion.getConnection();
-                miComando.CommandText = "SELECT * FROM departamentos WHERE nombre = @nombre";
+                miComando.CommandText = "SELECT * FROM PD_Departamentos WHERE NombreDepartamento = @nombre";
                 parameter = new SqlParameter();
                 parameter.ParameterName = "@nombre";
                 parameter.SqlDbType = System.Data.SqlDbType.VarChar;

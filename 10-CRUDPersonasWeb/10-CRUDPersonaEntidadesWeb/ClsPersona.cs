@@ -18,7 +18,18 @@ namespace _10_CRUDPersonaEntidadesWeb
             this.IdDepartamento = 0;
         }
 
-        
+        public ClsPersona(int idPersona,String nombrePersona,
+            String apellidosPersona,DateTime fechaNacimiento,String telefono,int idDepartamento)
+        {
+            this.IdPersona = idPersona;
+            this.NombrePersona = nombrePersona;
+            this.ApellidosPersona = apellidosPersona;
+            this.FechaNacimientoPersona = fechaNacimiento;
+            this.TelefonoPersona = telefono;
+            this.FotoPersona = new List<byte>();
+            this.IdDepartamento = idDepartamento;
+        }
+
         public int IdPersona { get; set; }
         public String NombrePersona { get; set; }
         public String ApellidosPersona { get; set; }

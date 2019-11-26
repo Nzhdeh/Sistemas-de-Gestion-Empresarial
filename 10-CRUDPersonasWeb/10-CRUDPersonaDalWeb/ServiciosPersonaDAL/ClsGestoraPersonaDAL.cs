@@ -121,7 +121,7 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
         /// <returns>
         /// entero id
         /// </returns>
-        public int BorrarPersona(int id)
+        public int BorrarPersonaPorId(int id)
         {
             SqlConnection conexion;
             SqlCommand miComando = new SqlCommand();

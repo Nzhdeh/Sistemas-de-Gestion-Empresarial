@@ -37,7 +37,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
             try
             {
                 conexion = miConexion.getConnection();
-                miComando.CommandText = "SELECT * FROM Personas";
+                miComando.CommandText = "SELECT * FROM PD_Personas";
 
                 miComando.Connection = conexion;
                 miLector = miComando.ExecuteReader();
@@ -52,6 +52,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
                         oPersona.NombrePersona = (string)miLector["NombrePersona"];
                         oPersona.ApellidosPersona = (string)miLector["ApellidosPersona"];
                         oPersona.FechaNacimientoPersona = (DateTime)miLector["FechaNacimientoPersona"];
+                        oPersona.IdDepartamento = (int)miLector["IdDepartamento"];
                         oPersona.TelefonoPersona = (string)miLector["TelefonoPersona"];
                         oPersona.FotoPersona = null;//hay que recuperar la imagen
                         listadoPersonas.Add(oPersona);

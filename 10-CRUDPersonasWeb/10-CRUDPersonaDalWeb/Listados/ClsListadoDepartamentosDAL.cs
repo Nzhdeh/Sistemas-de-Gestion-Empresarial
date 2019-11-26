@@ -36,7 +36,7 @@ namespace _10_CRUDPersonaDalWeb.Listados
             try
             {
                 conexion = miConexion.getConnection();
-                miComando.CommandText = "SELECT * FROM departamentos";
+                miComando.CommandText = "SELECT * FROM PD_Departamentos";
 
                 miComando.Connection = conexion;
                 miLector = miComando.ExecuteReader();
@@ -47,8 +47,8 @@ namespace _10_CRUDPersonaDalWeb.Listados
                     while (miLector.Read())
                     {
                         departamento = new ClsDepartamento();
-                        departamento.IdDepartamentoa = (int)miLector["ID"];
-                        departamento.NombreDepartamento = (string)miLector["Nombre"];
+                        departamento.IdDepartamentoa = (int)miLector["IdDepartamento"];
+                        departamento.NombreDepartamento = (string)miLector["NombreDepartamento"];
                         listadoDepartamentos.Add(departamento);
                     }
                 }

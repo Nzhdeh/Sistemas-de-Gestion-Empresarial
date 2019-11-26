@@ -25,7 +25,7 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
         {
             ClsPersona persona =null;
             gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-            //persona = gestoraPersonaDAL.buscarPersonaPorId(id);
+            persona = gestoraPersonaDAL.BuscarPersonaPorId(id);
 
             return persona;
         }
@@ -41,7 +41,7 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
         {
             int resultado = 0;
             ClsGestoraPersonaDAL gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-            //resultado = gestoraPersonaDAL.updatePersonaDAL(persona);
+            resultado = gestoraPersonaDAL.ActualizarPersonaDAL(persona);
 
             return resultado;
         }
@@ -57,7 +57,7 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
         {
             int resultado = 0;
             ClsGestoraPersonaDAL gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-           // resultado = gestoraPersonaDAL.deletePersona(id);
+            resultado = gestoraPersonaDAL.BorrarPersonaPorId(id);
 
             return resultado;
         }
@@ -74,7 +74,7 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
             int resultado = 0;
 
             ClsGestoraPersonaDAL gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-            //resultado = gestoraPersonaDAL.addPersonaDAL(persona);
+            resultado = gestoraPersonaDAL.InsertarPersonaDAL(persona);
 
             return resultado;
         }

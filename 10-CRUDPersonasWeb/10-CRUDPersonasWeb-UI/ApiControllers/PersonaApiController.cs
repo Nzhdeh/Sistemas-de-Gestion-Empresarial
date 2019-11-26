@@ -1,4 +1,5 @@
 ﻿using _10_CRUDPersonaBLWeb.Listados;
+using _10_CRUDPersonaBLWeb.ServiciosPersonaBL;
 using _10_CRUDPersonaEntidadesWeb;
 using System;
 using System.Collections.Generic;
@@ -20,25 +21,25 @@ namespace _10_CRUDPersonasWeb_UI.ApiControllers
         // GET: api/PersonaApi/5
         public ClsPersona Get(int id)
         {
-            return null;//new ClsListadoPersonasBL().ObtenerPersonaPorId(id);
+            return new ClsGestoraPersonaBL().BuscarPersonaPorId(id);
         }
 
         // POST: api/PersonaApi
         public void Post([FromBody]ClsPersona value)
         {
-            //new ClsListadoPersonasBL().InsertarPersona(value);
+            new ClsGestoraPersonaBL().InsertarPersona(value);
         }
 
         // PUT: api/PersonaApi/5
         public void Put(int id, [FromBody]ClsPersona value)
         {
-            //new ClsListadoPersonasBL().ActualizarPersona(value);
+            new ClsGestoraPersonaBL().ActualizarPersona(value);
         }
 
         // DELETE: api/PersonaApi/5
         public void Delete(int id)
         {
-            //new ClsListadoPersonasBL().DeletePersona(id);
+            new ClsGestoraPersonaBL().BorrarPersonaPorId(id);
         }
     }
 }
