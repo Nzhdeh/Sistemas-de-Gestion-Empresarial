@@ -1,4 +1,4 @@
-﻿@model _10_CRUDPersonasWeb_UI.Models.ClsPersonaConNombreDeDepartamento
+﻿@model _10_CRUDPersonaEntidadesWeb.ClsPersona
 
 @{
     ViewBag.Title = "Details";
@@ -7,7 +7,7 @@
 <h2>Details</h2>
 
 <div>
-    <h4>ClsPersonaConNombreDeDepartamento</h4>
+    <h4>ClsPersona</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -56,14 +56,6 @@
 
         <dd>
             @Html.DisplayFor(model => model.IdDepartamento)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.NombreDepartamento)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.NombreDepartamento)
         </dd>
 
     </dl>

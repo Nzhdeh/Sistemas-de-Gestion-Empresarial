@@ -47,6 +47,22 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
         }
 
         /// <summary>
+        /// sirve para editar una persona por su id
+        /// </summary>
+        /// <param name="id">id de una persona</param>
+        /// <returns>
+        /// objeto persona editada
+        /// </returns>
+        public ClsPersona EditarPersona(int id)
+        {
+            ClsPersona persona;
+            ClsGestoraPersonaDAL gestoraPersonaDAL = new ClsGestoraPersonaDAL();
+            persona = gestoraPersonaDAL.BuscarPersonaPorId(id);
+
+            return persona;
+        }
+
+        /// <summary>
         /// elimina una persona de la bbdd
         /// </summary>
         /// <param name="id"></param>
@@ -74,7 +90,7 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
             int resultado = 0;
 
             ClsGestoraPersonaDAL gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-            gestoraPersonaDAL.InsertarPersonaDAL(persona);//TODO poner resultado=
+            resultado=gestoraPersonaDAL.InsertarPersonaDAL(persona);
 
             return resultado;
         }

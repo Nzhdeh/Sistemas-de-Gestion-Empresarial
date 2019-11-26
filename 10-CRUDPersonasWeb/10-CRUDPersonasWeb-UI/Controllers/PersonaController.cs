@@ -40,34 +40,68 @@ namespace _10_CRUDPersonasWeb_UI.Controllers
         }
 
 
+        //public ActionResult Create()
+        //{
+        //    ClsListadoDepartamentosBL capaBL = new ClsListadoDepartamentosBL();
+        //    ClsPersonaConListadoDeDepartamentos personaListadoDpto = new ClsPersonaConListadoDeDepartamentos();
+        //    personaListadoDpto.ListadoDepartamento = capaBL.ObtenerListadoDepartamentosBL();
+        //    return View(personaListadoDpto);
+        //}
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Create([Bind(Include = "NombrePersona,ApellidosPersona,FechaNacimientoPersona,TelefonoPersona,IdDepartamento")] ClsPersona clsPersona)
+        //{
+        //    //if (ModelState.IsValid)
+        //    //{
+        //        try
+        //        {
+        //            ClsGestoraPersonaBL listPersBL = new ClsGestoraPersonaBL();
+        //            listPersBL.InsertarPersona(clsPersona);
+
+        //            return RedirectToAction("List");
+        //        }catch(SqlException e)
+        //        {
+
+        //        }
+
+        //    //}
+
+        //    return View(clsPersona);
+        //}
+
         public ActionResult Create()
         {
-            ClsListadoDepartamentosBL capaBL = new ClsListadoDepartamentosBL();
-            ClsPersonaConListadoDeDepartamentos personaListadoDpto = new ClsPersonaConListadoDeDepartamentos();
-            personaListadoDpto.ListadoDepartamento = capaBL.ObtenerListadoDepartamentosBL();
-            return View(personaListadoDpto);
+            return View();
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "NombrePersona,ApellidosPersona,FechaNacimientoPersona,TelefonoPersona,IdDepartamento")] ClsPersona clsPersona)
+        public ActionResult Create(ClsPersona clsPersona)
         {
-            //if (ModelState.IsValid)
-            //{
+            int i = 0;
+
+            ClsGestoraPersonaBL gestoraPersonaBL = new ClsGestoraPersonaBL();
+
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            else
+            {
                 try
                 {
-                    ClsGestoraPersonaBL listPersBL = new ClsGestoraPersonaBL();
-                    listPersBL.InsertarPersona(clsPersona);
-
-                    return RedirectToAction("List");
-                }catch(SqlException e)
+                    i = gestoraPersonaBL.InsertarPersona(clsPersona);
+                }
+                catch (Exception)
                 {
 
+                    return View("PgnError");
                 }
-                
-            //}
 
-            return View(clsPersona);
+            }
+
+            return RedirectToAction("List");
         }
 
         /// <summary>
@@ -77,24 +111,29 @@ namespace _10_CRUDPersonasWeb_UI.Controllers
         /// <returns>objeto persona</returns>
         public ActionResult Details(int id)
         {
+            //ClsGestoraPersonaBL gestoraPersonaBL = new ClsGestoraPersonaBL();
+            //ClsGestoraDepartamentoBL gestoraDepartamentoBL = new ClsGestoraDepartamentoBL();
+            //ClsPersona persona = new ClsPersona();
+            //ClsDepartamento departamento = new ClsDepartamento();
+            //persona = gestoraPersonaBL.BuscarPersonaPorId(id);
+            //departamento = gestoraDepartamentoBL.BuscarDepartamentoPorId(persona.IdDepartamento);
+
+            //ClsPersonaConNombreDeDepartamento personaConDpto = new ClsPersonaConNombreDeDepartamento();
+
+            ////personaCompleta.idPersona = pers.idPersona;//no hace falta
+            //personaConDpto.NombrePersona = persona.NombrePersona;
+            //personaConDpto.ApellidosPersona = persona.ApellidosPersona;
+            //personaConDpto.TelefonoPersona = persona.TelefonoPersona;
+            //personaConDpto.FechaNacimientoPersona = persona.FechaNacimientoPersona;
+            //personaConDpto.FotoPersona = persona.FotoPersona;
+            //personaConDpto.NombreDepartamento = departamento.NombreDepartamento;
+
+            //return View(personaConDpto);
+
             ClsGestoraPersonaBL gestoraPersonaBL = new ClsGestoraPersonaBL();
-            ClsGestoraDepartamentoBL gestoraDepartamentoBL = new ClsGestoraDepartamentoBL();
-            ClsPersona persona = new ClsPersona();
-            ClsDepartamento departamento = new ClsDepartamento();
-            persona = gestoraPersonaBL.BuscarPersonaPorId(id);
-            departamento = gestoraDepartamentoBL.BuscarDepartamentoPorId(persona.IdDepartamento);
+            ClsPersona persona = gestoraPersonaBL.BuscarPersonaPorId(id);
 
-            ClsPersonaConNombreDeDepartamento personaConDpto = new ClsPersonaConNombreDeDepartamento();
-
-            //personaCompleta.idPersona = pers.idPersona;//no hace falta
-            personaConDpto.NombrePersona = persona.NombrePersona;
-            personaConDpto.ApellidosPersona = persona.ApellidosPersona;
-            personaConDpto.TelefonoPersona = persona.TelefonoPersona;
-            personaConDpto.FechaNacimientoPersona = persona.FechaNacimientoPersona;
-            personaConDpto.FotoPersona = persona.FotoPersona;
-            personaConDpto.NombreDepartamento = departamento.NombreDepartamento;
-
-            return View(personaConDpto);
+            return View(persona);
         }
 
         /// <summary>
@@ -134,36 +173,73 @@ namespace _10_CRUDPersonasWeb_UI.Controllers
             return View(clsPersona);
         }
 
+        //public ActionResult Delete(int id)
+        //{
+        //    ClsGestoraPersonaBL gestoraPersonaBL = new ClsGestoraPersonaBL();
+        //    ClsGestoraDepartamentoBL gestoraDepartamentoBL = new ClsGestoraDepartamentoBL();
+        //    ClsPersona pers = new ClsPersona();
+        //    ClsDepartamento dpto = new ClsDepartamento();
+        //    pers = gestoraPersonaBL.BuscarPersonaPorId(id);
+        //    dpto = gestoraDepartamentoBL.BuscarDepartamentoPorId(pers.IdDepartamento);
+
+        //    ClsPersonaConNombreDeDepartamento personaCompleta = new ClsPersonaConNombreDeDepartamento();
+
+        //    //personaCompleta.idPersona = pers.idPersona;//no hace falta
+        //    personaCompleta.NombreDepartamento = pers.NombrePersona;
+        //    personaCompleta.ApellidosPersona = pers.ApellidosPersona;
+        //    personaCompleta.TelefonoPersona = pers.TelefonoPersona;
+        //    personaCompleta.FechaNacimientoPersona = pers.FechaNacimientoPersona;            
+        //    personaCompleta.FotoPersona = pers.FotoPersona;
+        //    personaCompleta.NombreDepartamento = dpto.NombreDepartamento;
+
+        //    return View(personaCompleta);
+        //}
+
+
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult DeleteConfirmed(int id)
+        //{
+        //    ClsGestoraPersonaBL gestoraPersonaBL = new ClsGestoraPersonaBL();
+        //    gestoraPersonaBL.BorrarPersonaPorId(id);
+        //    return RedirectToAction("List");
+        //}
+
         public ActionResult Delete(int id)
         {
             ClsGestoraPersonaBL gestoraPersonaBL = new ClsGestoraPersonaBL();
-            ClsGestoraDepartamentoBL gestoraDepartamentoBL = new ClsGestoraDepartamentoBL();
-            ClsPersona pers = new ClsPersona();
-            ClsDepartamento dpto = new ClsDepartamento();
-            pers = gestoraPersonaBL.BuscarPersonaPorId(id);
-            dpto = gestoraDepartamentoBL.BuscarDepartamentoPorId(pers.IdDepartamento);
+            ClsPersona persona = gestoraPersonaBL.EditarPersona(id);
 
-            ClsPersonaConNombreDeDepartamento personaCompleta = new ClsPersonaConNombreDeDepartamento();
-
-            //personaCompleta.idPersona = pers.idPersona;//no hace falta
-            personaCompleta.NombreDepartamento = pers.NombrePersona;
-            personaCompleta.ApellidosPersona = pers.ApellidosPersona;
-            personaCompleta.TelefonoPersona = pers.TelefonoPersona;
-            personaCompleta.FechaNacimientoPersona = pers.FechaNacimientoPersona;            
-            personaCompleta.FotoPersona = pers.FotoPersona;
-            personaCompleta.NombreDepartamento = dpto.NombreDepartamento;
-
-            return View(personaCompleta);
+            return View(persona);
         }
 
-        
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        [HttpPost]
+        [ActionName("Delete")]
+        public ActionResult DeletePost(int id)
         {
+            int i = 0;
+
             ClsGestoraPersonaBL gestoraPersonaBL = new ClsGestoraPersonaBL();
-            gestoraPersonaBL.BorrarPersonaPorId(id);
-            return RedirectToAction("Index");
+
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            else
+            {
+                try
+                {
+                    i = gestoraPersonaBL.BorrarPersonaPorId(id);
+                }
+                catch (Exception)
+                {
+
+                    return View("PgnError");
+                }
+
+            }
+
+            return RedirectToAction("List");
         }
     }
 }

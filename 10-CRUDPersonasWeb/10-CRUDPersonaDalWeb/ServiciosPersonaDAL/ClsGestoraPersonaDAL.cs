@@ -30,7 +30,7 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
 
             SqlDataReader miLector;
 
-            ClsPersona oPersona = null;
+            ClsPersona oPersona = new ClsPersona();
 
             SqlConnection conexion;
 
@@ -41,11 +41,11 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
             try
             {
                 conexion = miConexion.getConnection();
-                miComando.CommandText = "SELECT * FROM personas WHERE IDPersona = @id";
                 parameter = new SqlParameter();
                 parameter.ParameterName = "@id";
                 parameter.SqlDbType = System.Data.SqlDbType.Int;
                 parameter.Value = id;
+                miComando.CommandText = "SELECT * FROM personas WHERE IDPersona = @id";
                 miComando.Parameters.Add(parameter);
 
 
@@ -71,10 +71,10 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
 
             catch (SqlException exSql)
             {
-                throw exSql;
+                throw exSql;//aqui salta una excepcion cuando borro
             }
 
-            return (oPersona);
+            return oPersona;
 
         }
 
@@ -151,7 +151,7 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
         /// <returns>
         ///
         /// </returns>
-        public void InsertarPersonaDAL(ClsPersona persona)
+        public int InsertarPersonaDAL(ClsPersona persona)
         {
             int resultado = 0;
 
@@ -183,6 +183,8 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
             {
                 throw exSql;
             }
+
+            return resultado;
         }
     }
 }
