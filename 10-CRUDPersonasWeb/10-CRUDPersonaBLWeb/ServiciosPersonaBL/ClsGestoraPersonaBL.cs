@@ -74,7 +74,7 @@ namespace _10_CRUDPersonaBLWeb.ServiciosPersonaBL
             int resultado = 0;
 
             ClsGestoraPersonaDAL gestoraPersonaDAL = new ClsGestoraPersonaDAL();
-            resultado = gestoraPersonaDAL.InsertarPersonaDAL(persona);
+            gestoraPersonaDAL.InsertarPersonaDAL(persona);//TODO poner resultado=
 
             return resultado;
         }

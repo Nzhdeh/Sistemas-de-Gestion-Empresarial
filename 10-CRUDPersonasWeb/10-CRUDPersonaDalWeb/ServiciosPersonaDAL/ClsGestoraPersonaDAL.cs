@@ -149,25 +149,31 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
         /// </summary>
         /// <param name="persona"></param>
         /// <returns>
-        /// uan persona
+        ///
         /// </returns>
-        public int InsertarPersonaDAL(ClsPersona persona)
+        public void InsertarPersonaDAL(ClsPersona persona)
         {
             int resultado = 0;
 
             SqlConnection conexion;
             SqlCommand miComando = new SqlCommand();
-            ClsMyConnection miConexion = new ClsMyConnection(); ;
-            miComando.CommandText = "INSERT INTO personas (NombrePersona, ApellidosPersona, fechaNac, FechaNacimientoPersona, TelefonoPersona,FotoPersona) VALUES (@NombrePersona, @ApellidosPersona, @FechaNacimientoPersona, @TelefonoPersona, @FotoPersona)";
+            ClsMyConnection miConexion = new ClsMyConnection();
+            
             miComando.Parameters.Add("@NombrePersona", System.Data.SqlDbType.VarChar).Value = persona.NombrePersona;
             miComando.Parameters.Add("@ApellidosPersona", System.Data.SqlDbType.VarChar).Value = persona.ApellidosPersona;
-            miComando.Parameters.Add("@FechaNacimientoPersona", System.Data.SqlDbType.DateTime).Value = persona.FechaNacimientoPersona;
+            miComando.Parameters.Add("@IDDepartamennto", System.Data.SqlDbType.Int).Value = persona.IdDepartamento;
             miComando.Parameters.Add("@TelefonoPersona", System.Data.SqlDbType.VarChar).Value = persona.TelefonoPersona;
-            miComando.Parameters.Add("@FotoPersona", System.Data.SqlDbType.Int).Value = persona.FotoPersona;
+            miComando.Parameters.Add("@FechaNacimientoPersona", System.Data.SqlDbType.DateTime).Value = persona.FechaNacimientoPersona;
+            miComando.Parameters.Add("@FotoPersona", System.Data.SqlDbType.VarBinary).Value = persona.FotoPersona;
+
+            
 
 
             try
             {
+                miComando.CommandText = "INSERT INTO personas (NombrePersona, ApellidosPersona,IDDepartamento, FechaNacimientoPersona, TelefonoPersona,FotoPersona) " +
+                    "VALUES (@NombrePersona, @ApellidosPersona,@IDDepartamento, @FechaNacimientoPersona, @TelefonoPersona,@FotoPersona)";
+
                 conexion = miConexion.getConnection();
                 miComando.Connection = conexion;
                 resultado = miComando.ExecuteNonQuery();
@@ -177,8 +183,6 @@ namespace _10_CRUDPersonaDalWeb.ServiciosPersonaDAL
             {
                 throw exSql;
             }
-
-            return resultado;
         }
     }
 }
