@@ -1,0 +1,14 @@
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\obj\Debug\netcoreapp2.1\11-CRUDPersonaBL.csprojAssemblyReference.cache
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\obj\Debug\netcoreapp2.1\11-CRUDPersonaBL.csproj.CoreCompileInputs.cache
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\obj\Debug\netcoreapp2.1\11-CRUDPersonaBL.AssemblyInfoInputs.cache
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\obj\Debug\netcoreapp2.1\11-CRUDPersonaBL.AssemblyInfo.cs
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\bin\Debug\netcoreapp2.1\11-CRUDPersonaBL.deps.json
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\bin\Debug\netcoreapp2.1\11-CRUDPersonaBL.dll
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\bin\Debug\netcoreapp2.1\11-CRUDPersonaBL.pdb
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\bin\Debug\netcoreapp2.1\11-CRUDPersonaDAL.dll
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\bin\Debug\netcoreapp2.1\11-CRUDPersonaEntities.dll
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\bin\Debug\netcoreapp2.1\11-CRUDPersonaDAL.pdb
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\bin\Debug\netcoreapp2.1\11-CRUDPersonaEntities.pdb
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\obj\Debug\netcoreapp2.1\11-CRUDPersonaBL.csproj.CopyComplete
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\obj\Debug\netcoreapp2.1\11-CRUDPersonaBL.dll
+D:\Sistemas-de-Gestion-Empresarial\11-CRUDPersonasCore\11-CRUDPersonaBL\obj\Debug\netcoreapp2.1\11-CRUDPersonaBL.pdb
