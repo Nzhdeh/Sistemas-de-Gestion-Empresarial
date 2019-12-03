@@ -16,7 +16,7 @@ namespace ExamenSorpresaCRUD_UI.ViewModel
         public ClsMainPageVM()
         {
             this.listadoDepartamentos=null;
-            this.departamentoSeleccionado=new ClsDepartamento;
+            this.departamentoSeleccionado=new ClsDepartamento();
             this.listadoApellidosPersonaPorIdDepartamento=null;
             this.personaSeleccionada=new ClsPersona();
         }
