@@ -1,0 +1,63 @@
+﻿@model IEnumerable<PreparandoExamen_ENTITIES.ClsPersona>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdPersona)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NombrePersona)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ApellidosPersona)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaNacimientoPersona)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdDepartamento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TelefonoPersona)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdPersona)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NombrePersona)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ApellidosPersona)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaNacimientoPersona)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdDepartamento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TelefonoPersona)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
