@@ -72,3 +72,32 @@ E:\Git Hub\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpres
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\obj\Debug\06-ExamenSorpresaMVC.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\obj\Debug\06-ExamenSorpresaMVC.pdb
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\obj\Debug\06-ExamenSorpresaMVC.csprojAssemblyReference.cache
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\06-ExamenSorpresaMVC.dll.config
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\06-ExamenSorpresaMVC.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\06-ExamenSorpresaMVC.pdb
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Helpers.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Mvc.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Razor.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Webpages.Deployment.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Webpages.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Webpages.Razor.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Razor.xml
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Webpages.xml
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Webpages.Deployment.xml
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Webpages.Razor.xml
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Helpers.xml
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\System.Web.Mvc.xml
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\es\System.Web.Razor.resources.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\es\System.Web.Webpages.resources.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\es\System.Web.Helpers.resources.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\bin\es\System.Web.Mvc.resources.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\obj\Debug\06-ExamenSorpresaMVC.csprojAssemblyReference.cache
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\obj\Debug\06-ExamenSorpresaMVC.csproj.CoreCompileInputs.cache
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\obj\Debug\06-ExamenSorpresaMVC.csproj.CopyComplete
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\obj\Debug\06-ExamenSorpresaMVC.dll
+D:\Sistemas-de-Gestion-Empresarial\06-ExamenSorpresaMVC\06-ExamenSorpresaMVC\obj\Debug\06-ExamenSorpresaMVC.pdb

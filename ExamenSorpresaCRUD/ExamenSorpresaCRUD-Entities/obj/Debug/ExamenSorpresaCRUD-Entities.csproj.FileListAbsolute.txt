@@ -71,3 +71,4 @@ D:\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD\ExamenSorpresaCRUD-Entitie
 D:\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD\ExamenSorpresaCRUD-Entities\obj\Debug\ExamenSorpresaCRUD-Entities.csproj.CopyComplete
 D:\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD\ExamenSorpresaCRUD-Entities\obj\Debug\ExamenSorpresaCRUD-Entities.dll
 D:\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD\ExamenSorpresaCRUD-Entities\obj\Debug\ExamenSorpresaCRUD-Entities.pdb
+D:\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD\ExamenSorpresaCRUD-Entities\obj\Debug\ExamenSorpresaCRUD-Entities.csprojAssemblyReference.cache
