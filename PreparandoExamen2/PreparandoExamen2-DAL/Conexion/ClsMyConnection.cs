@@ -34,12 +34,10 @@ namespace PreparandoExamen2_DAL.Conexion
 
         public ClsMyConnection()
         {
-            // this.server = "(local)";
-            this.server = "localhost";
+            this.server = "DESKTOP-68D7LR4\\SQLEXPRESS";
 
             this.dataBase = "Alumnos";
             this.user = "alumno";
-            //this.pass = "123";
             this.pass = "alumno";
 
         }
