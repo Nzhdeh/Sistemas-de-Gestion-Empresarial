@@ -40,7 +40,7 @@ namespace _11_CRUDPersonaDAL.Conexion
             this.dataBase = "Personas";
             this.user = "nzhdeh";
             //this.pass = "123";
-            this.pass = "dnder.21";
+            this.pass = "";
 
         }
         //Con parámetros por si quisiera cambiar las conexiones
