@@ -34,11 +34,13 @@ namespace Examen1TrimestreNzhdeh_DAL.Conexion
 
         public ClsMyConnection()
         {
-            this.server = "localhost";
+            // this.server = "(local)";
+            this.server = "nzhdeh.database.windows.net";
 
-            this.dataBase = "Alumnos";
-            this.user = "alumno";
-            this.pass = "alumno";
+            this.dataBase = "Personas";
+            this.user = "123";
+            //this.pass = "123";
+            this.pass = "123";
 
         }
         //Con parámetros por si quisiera cambiar las conexiones

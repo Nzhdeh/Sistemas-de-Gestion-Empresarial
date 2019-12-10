@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Examen1TrimestreNzhdeh_ET
+namespace Examen1TrimestreNzhdeh_DAL
 {
     public class Class1
     {

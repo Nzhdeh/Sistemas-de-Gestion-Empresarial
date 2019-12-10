@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Examen1TrimestreNzhdeh_UI</RootNamespace>
     <AssemblyName>Examen1TrimestreNzhdeh-UI</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44370</IISExpressSSLPort>
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -51,16 +53,14 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -130,11 +130,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Examen1TrimestreNzhdeh-BL\Examen1TrimestreNzhdeh-BL.csproj">
-      <Project>{ee33abda-f983-4ef4-b74c-762833e53905}</Project>
+      <Project>{7b9854d5-a21d-4f18-8af3-193715bbe870}</Project>
       <Name>Examen1TrimestreNzhdeh-BL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Examen1TrimestreNzhdeh-ET\Examen1TrimestreNzhdeh-ET.csproj">
-      <Project>{76f4d05c-51ec-4ad4-9eed-0070cb1af33c}</Project>
+      <Project>{e92c9ded-4461-422e-9c6a-437f649fd0cf}</Project>
       <Name>Examen1TrimestreNzhdeh-ET</Name>
     </ProjectReference>
   </ItemGroup>

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Examen1TrimestreNzhdeh_ET
+namespace Examen1TrimestreNzhdeh_DAL.Conexion
 {
-    public class Class1
+    class Class1
     {
     }
 }
