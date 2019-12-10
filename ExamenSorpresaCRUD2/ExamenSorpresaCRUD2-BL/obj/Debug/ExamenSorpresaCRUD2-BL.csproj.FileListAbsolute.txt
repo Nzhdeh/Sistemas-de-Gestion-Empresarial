@@ -1,0 +1,10 @@
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\bin\Debug\ExamenSorpresaCRUD2-BL.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\bin\Debug\ExamenSorpresaCRUD2-BL.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\bin\Debug\ExamenSorpresaCRUD2-DAL.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\bin\Debug\ExamenSorpresaCRUD2-ET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\bin\Debug\ExamenSorpresaCRUD2-DAL.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\bin\Debug\ExamenSorpresaCRUD2-ET.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\obj\Debug\ExamenSorpresaCRUD2-BL.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\obj\Debug\ExamenSorpresaCRUD2-BL.csproj.CopyComplete
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\obj\Debug\ExamenSorpresaCRUD2-BL.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-BL\obj\Debug\ExamenSorpresaCRUD2-BL.pdb

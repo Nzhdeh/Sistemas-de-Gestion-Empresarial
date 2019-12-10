@@ -1,0 +1,59 @@
+﻿@model ExamenSorpresaCRUD2-UI.Models.clsListadoDepartamentosListadosPersonas
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            @Html.DropDownListFor(m => m.DepartamentoSeleccionado.ID, new SelectList(Model.Dptos, "Id", "Nombre"))
+            <input type="submit" name="btnSeleccionar" value="Seleccionar" /> <br />
+            @Html.DropDownListFor(m => m.PersonaSeleccionada.IDPersona, new SelectList(Model.Personas, "IDPersona", "Apellidos"))
+            <input type="submit" name="btnDetalles" value="Detalles" />
+
+            <table id="table">
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Apellidos
+                    </th>
+                    <th>
+                        Fecha de Nacimiento
+                    </th>
+
+                    <th>
+                        Telefono
+                    </th>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => Model.PersonaSeleccionada.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => Model.PersonaSeleccionada.Apellidos)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => Model.PersonaSeleccionada.FechaNacimiento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => Model.PersonaSeleccionada.Telefono)
+                    </td>
+                </tr>
+
+
+            </table>
+        </form>
+</body>
+</html>
+
