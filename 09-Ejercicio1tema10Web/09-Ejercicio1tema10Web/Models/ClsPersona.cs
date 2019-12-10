@@ -12,7 +12,7 @@ namespace _09_Ejercicio1tema10Web.Models
             this.IdPersona = 0;
             this.NombrePersona = "No nombre";
             this.ApellidosPersona = "No apellidos";
-            this.FechaNacimientoPersona = "2000/10/10";
+            this.FechaNacimientoPersona = new DateTime();
             this.TelefonoPersona = "6656555444";
             this.FotoPersona = new List<byte>();
         }
