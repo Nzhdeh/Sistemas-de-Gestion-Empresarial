@@ -1,0 +1,5 @@
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-ET\bin\Debug\Examen1TrimestreNzhdeh-ET.dll
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-ET\bin\Debug\Examen1TrimestreNzhdeh-ET.pdb
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-ET\obj\Debug\Examen1TrimestreNzhdeh-ET.csproj.CoreCompileInputs.cache
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-ET\obj\Debug\Examen1TrimestreNzhdeh-ET.dll
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-ET\obj\Debug\Examen1TrimestreNzhdeh-ET.pdb

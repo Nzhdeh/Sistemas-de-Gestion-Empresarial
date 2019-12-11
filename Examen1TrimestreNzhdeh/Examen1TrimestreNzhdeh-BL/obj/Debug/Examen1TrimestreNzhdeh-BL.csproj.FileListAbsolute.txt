@@ -1,0 +1,11 @@
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\bin\Debug\Examen1TrimestreNzhdeh-BL.dll
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\bin\Debug\Examen1TrimestreNzhdeh-BL.pdb
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\bin\Debug\Examen1TrimestreNzhdeh-DAL.dll
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\bin\Debug\Examen1TrimestreNzhdeh-ET.dll
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\bin\Debug\Examen1TrimestreNzhdeh-DAL.pdb
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\bin\Debug\Examen1TrimestreNzhdeh-ET.pdb
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\obj\Debug\Examen1TrimestreNzhdeh-BL.csprojAssemblyReference.cache
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\obj\Debug\Examen1TrimestreNzhdeh-BL.csproj.CoreCompileInputs.cache
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\obj\Debug\Examen1TrimestreNzhdeh-BL.csproj.CopyComplete
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\obj\Debug\Examen1TrimestreNzhdeh-BL.dll
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-BL\obj\Debug\Examen1TrimestreNzhdeh-BL.pdb

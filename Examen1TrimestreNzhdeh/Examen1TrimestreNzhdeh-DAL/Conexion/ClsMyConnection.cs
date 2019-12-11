@@ -1,24 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Data.SqlClient;
-
-// Esta clase contiene los métodos necesarios para trabajar con el acceso a una base de datos SQL Server
-//PROPIEDADES
-//   _server: cadena 
-//   _database: cadena, básica. Consultable/modificable.
-//   _user: cadena, básica. Consultable/modificable.
-//   _pass: cadena, básica. Consultable/modificable.
-
-// MÉTODOS
-//   Function getConnection() As SqlConnection
-//       Este método abre una conexión con la base de datos. Lanza excepciones de tipo: SqlExcepion, InvalidOperationException y Exception.
-//   
-//   Sub closeConnection(ByRef connection As SqlConnection)
-//       Este método cierra una conexión con la base de datos. Lanza excepciones de tipo: SqlExcepion, InvalidOperationException y Exception.
-//
-
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Examen1TrimestreNzhdeh_DAL.Conexion
 {
@@ -34,15 +19,13 @@ namespace Examen1TrimestreNzhdeh_DAL.Conexion
 
         public ClsMyConnection()
         {
-            // this.server = "(local)";
-            this.server = "nzhdeh.database.windows.net";
+            this.server = "107-06";
 
-            this.dataBase = "Personas";
-            this.user = "123";
-            //this.pass = "123";
+            this.dataBase = "Avengers";
+            this.user = "prueba";
             this.pass = "123";
-
         }
+
         //Con parámetros por si quisiera cambiar las conexiones
         public ClsMyConnection(String server, String database, String user, String pass)
         {
@@ -66,7 +49,7 @@ namespace Examen1TrimestreNzhdeh_DAL.Conexion
 
             try
             {
-               
+
                 //connection.ConnectionString = string.Format("server={0};database={1};uid={2};pwd={3};", server, dataBase, user, pass);
                 connection.ConnectionString = $"server={server};database={dataBase};uid={user};pwd={pass};";
                 connection.Open();
@@ -109,7 +92,5 @@ namespace Examen1TrimestreNzhdeh_DAL.Conexion
             }
         }
 
-
     }
-
 }

@@ -1,0 +1,82 @@
+﻿@Model Examen1TrimestreNzhdeh_UI.ViewModel.ClsIndexVM
+
+@{
+    Layout = "Index";
+}
+
+@*NO FUNCIONAAA*@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="view" content="width=device-width" />
+    <title>Index</title>
+
+    <script runat="server">
+
+        void GuardarEleccion(Object sender, EventArgs e)
+        {
+           @*aqui va el cuerpo*@
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <form method="post">
+            @Html.DropDownListFor(m => m.VengadorSeleccionado.IdSuperheroe, new SelectList(Model.Supr, "IdSuperheroe", "NombreSuperheroe"))
+            <input type="submit" name="btnReservar" value="Reservar" /> <br />
+
+            <table id="tabla">
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => Model.VengadorSeleccionado.NombreSuperheroe)
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    @*este es el div de la siguente lista con el checkbox*@
+    <div>
+        <form method="post">
+            @Html.DropDownListFor(m => m.MisionSeleccionada.IdMision, new SelectList(Model.Supr, "IdMision", "TituloMision"))
+            <input type="submit" name="btnReservar" value="Reservar" /> <br />
+
+            <table id="tabla">
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => Model.VengadorSeleccionado.NombreSuperheroe)
+                    </td>
+                </tr>
+
+                <asp:CheckBoxList id="checkboxlist1"
+                                    AutoPostBack="True"
+                                    CellPadding="5"
+                                    CellSpacing="5"
+                                    RepeatColumns="2"
+                                    RepeatDirection="Vertical"
+                                    RepeatLayout="Flow"
+                                    TextAlign="Right"
+                                    OnSelectedIndexChanged="GuardarEleccion"
+                                    runat="server">
+
+                    <asp:ListItem>Elegir</asp:ListItem>
+                </asp:CheckBoxList>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

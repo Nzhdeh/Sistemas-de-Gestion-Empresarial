@@ -1,0 +1,2 @@
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-UI\obj\Debug\Examen1TrimestreNzhdehUI.csprojAssemblyReference.cache
+D:\Sistemas-de-Gestion-Empresarial\Examen1TrimestreNzhdeh\Examen1TrimestreNzhdeh-UI\obj\Debug\Examen1TrimestreNzhdehUI.csproj.CoreCompileInputs.cache

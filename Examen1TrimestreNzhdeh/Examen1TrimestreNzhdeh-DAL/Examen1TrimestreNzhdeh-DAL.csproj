@@ -41,9 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Conexion\Class1.cs" />
     <Compile Include="Conexion\ClsMyConnection.cs" />
+    <Compile Include="ListasDAL\ClsListadoDeMisionesNoReservadas.cs" />
+    <Compile Include="ListasDAL\ClsListadoDeVengadores.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,7 +53,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ListasDAL\" />
     <Folder Include="ManejadorasDAL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
