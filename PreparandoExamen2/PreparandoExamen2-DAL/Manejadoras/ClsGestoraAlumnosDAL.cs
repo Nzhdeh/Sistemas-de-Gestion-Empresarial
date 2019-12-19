@@ -47,9 +47,9 @@ namespace PreparandoExamen2_DAL.Manejadoras
                     miLector.Read();
                     a = new ClsAlumno();
                     a.IdAlumno = (int)miLector["ID"];
-                    a.NombreAlumno = (string)miLector["NombrePersona"];
-                    a.ApellidosAlumno = (string)miLector["ApellidosPersona"];
-                    a.Beca = (double)miLector["Beca"];
+                    a.NombreAlumno = (string)miLector["NombreAlumno"];
+                    a.ApellidosAlumno = (string)miLector["ApellidosAlumno"];
+                    a.Beca = (int)miLector["Beca"];
                     a.IdCurso = (int)miLector["IDCurso"];
                     
                 }

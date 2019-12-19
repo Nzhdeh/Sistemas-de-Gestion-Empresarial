@@ -29,7 +29,7 @@ namespace PreparandoExamen2_DAL.Listas
             try
             {
                 conexion = miConexion.getConnection();
-                miComando.CommandText = "SELECT * FROM AD_Alumnos";
+                miComando.CommandText = "SELECT * FROM AD_Cursos";
 
                 miComando.Connection = conexion;
                 miLector = miComando.ExecuteReader();
