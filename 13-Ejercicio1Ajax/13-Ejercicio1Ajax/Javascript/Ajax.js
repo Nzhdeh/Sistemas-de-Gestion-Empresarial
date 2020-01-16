@@ -82,7 +82,9 @@ function borrar() {
     //alert("hola");
 
     var miLlamada = new XMLHttpRequest();
-    miLlamada.open("DELETE", "https://crudtoflamaapi.azurewebsites.net/api/Persona");
+    var idPersona = document.getElementById("btnDelete").value;
+
+    miLlamada.open("DELETE", "https://crudtoflamaapi.azurewebsites.net/api/Persona/"+idPersona);
 
     //Definicion estados
     miLlamada.onreadystatechange = function ()
@@ -91,16 +93,17 @@ function borrar() {
 
             //alert(miLlamada.readyState);
             //aquí se puede poner una imagen de un reloj o un texto “Cargando”
-            document.getElementById("divDelete").innerHTML = "Cargando...";
+            document.getElementById("divDelete").innerHTML = "Borrando...";
         }
         else
-            if (miLlamada.readyState == 4 && miLlamada.status == 204) {
-                //alert(miLlamada.status);
+            if (miLlamada.readyState < 4 && miLlamada.status == 204)
+            {
+                alert("se ha borrado correctamente");
 
                 //var arrayPersonas = JSON.parse(miLlamada.responseText);
-                var mensage = miLlamada.responseText;
-                //funcionQueHagaAlgoConLasPersonas(mensage);
-                document.getElementById("divSaludo").innerHTML += mensage;
+                //var mensage = miLlamada.responseText;
+                ////funcionQueHagaAlgoConLasPersonas(mensage);
+                //document.getElementById("divSaludo").innerHTML += mensage;
             }
 
     };
