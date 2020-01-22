@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRUD PERSONAS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../Js/CrudPersona.js"></script>
+</head>
+
+<body style="background:#F4F4F4">
+    <div class="container">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2>CRUD</h2>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Nombre del Departamento</th>
+                        <th>Fecha de Nacimiento</th>
+                        <th>Telefono</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaPersonas">
+                    <tr>
+                        <td>Thomas</td>
+                        <td>Hardy</td>
+                        <td>informatica</td>
+                        <td>01/01/1991</td>
+                        <td>3333333333</td>
+                        <td>
+                            <a id="editar" href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit" id="editar">&#xE254;</i></a>
+                            <a id="borrar" href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete" id="borrar">&#xE872;</i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Añadir Persona</span></a>
+            </div>
+        </div>
+    </div>
+    <!--Add Modal HTML-->
+    <div id="addEmployeeModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Añadir Persona</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Nombre</label>
+                            <input id="nombreA" type="text" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Apellidos</label>
+                            <input id="apellidosA" type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Nombre del Departamento</label>
+                            <select id="addSelect">
+                                <option id="1" value="1">INFORMATICA</option>
+                                <option id="2" value="2">Contabilidad</option>
+                                <option id="3" value="3">Ventas</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Fecha de Nacimiento</label>
+                            <input id="fechaA" type="date" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Telefono</label>
+                            <input id="telefonoA" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar">
+                        <button class="btn btn-success" id="añadir">Añadir</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Edit Modal HTML -->
+    <div id="editEmployeeModal" class="modal" style="overflow-y: scroll;">
+        <div class="modal-dialog modal-dialog-sm">
+            <div class="modal-content modal-content-sm">
+                <form>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Editar Persona</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Nombre</label>
+                            <input id="nombreE" type="text" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Apellidos</label>
+                            <input id="apellidosE" type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Nombre del Departamento</label>
+                            <select id="editSelect">
+                                <option id="1" value="1">INFORMATICA</option>
+                                <option id="2" value="2">Contabilidad</option>
+                                <option id="3" value="3">Ventas</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Fecha de Nacimiento</label>
+                            <input id="fechaE" type="date" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Telefono</label>
+                            <input id="telefonoE" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar">
+                        <button class="btn btn-success" id="editar">Editar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="editEmployeeModal" class="modal">
+        <form id="formE" class="modal-content">
+            <input id="idPersona" hidden type="text" required readonly />
+            <label>Nombre</label>
+            <input id="nombreE" type="text" required /><br /><br />
+            <label>Apellidos</label>
+            <input id="apellidosE" type="text" required /><br /><br />
+            <label>Telefono</label>
+            <input id="telefonoE" type="text" required /><br /><br />
+            <label>Fecha de nacimiento</label>
+            <input id="fechaE" type="date" required /><br /><br />
+            <label>Departamento</label>
+            <input id="telefonoE" type="text" required /><br /><br />
+            <button id="guardarEditar" onclick="guardarEditar()">Guardar</button>
+            <button id="cancelarEditar" onclick="cancelarEditar()">Cancelar</button>
+        </form>
+    </div>
+    <!--Delete Modal HTML-->
+    <div id="deleteEmployeeModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Eliminar Persona</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="cancelarEliminar()">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Estas seguro que quieres eliminar la persona de la lista?</p>
+                        <p class="text-warning"><small>Esta opcion no se puede revertir.</small></p>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar" onclick="cancelarEliminar()">
+                        <input type="button" class="btn btn-danger" value="Eliminar" id="eliminarButton">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
