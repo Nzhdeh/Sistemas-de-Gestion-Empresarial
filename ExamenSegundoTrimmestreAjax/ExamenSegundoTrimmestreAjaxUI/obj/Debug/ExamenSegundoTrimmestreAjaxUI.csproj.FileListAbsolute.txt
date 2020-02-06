@@ -1,0 +1,2 @@
+D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxUI\obj\Debug\ExamenSegundoTrimmestreAjaxUI.csprojAssemblyReference.cache
+D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxUI\obj\Debug\ExamenSegundoTrimmestreAjaxUI.csproj.CoreCompileInputs.cache

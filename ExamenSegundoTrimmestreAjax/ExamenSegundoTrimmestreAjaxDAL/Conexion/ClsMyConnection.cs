@@ -35,8 +35,8 @@ namespace ExamenSegundoTrimmestreAjaxDAL.Conexion
         public ClsMyConnection()
         {
             // this.server = "(local)";
-            this.server = "nzhdeh.database.windows.net";
-
+            //this.server = "nzhdeh.database.windows.net";
+            this.server = "107-06";
             this.dataBase = "Personas";
             this.user = "nzhdeh";
             //this.pass = "123";
