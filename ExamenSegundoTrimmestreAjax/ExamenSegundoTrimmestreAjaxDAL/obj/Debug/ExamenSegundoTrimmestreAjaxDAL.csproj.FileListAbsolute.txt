@@ -7,3 +7,7 @@ D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrim
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\obj\Debug\ExamenSegundoTrimmestreAjaxDAL.csproj.CopyComplete
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\obj\Debug\ExamenSegundoTrimmestreAjaxDAL.dll
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\obj\Debug\ExamenSegundoTrimmestreAjaxDAL.pdb
+D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\Newtonsoft.Json.dll
+D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\System.Data.SqlClient.dll
+D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\Newtonsoft.Json.xml
+D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\System.Data.SqlClient.xml

@@ -1,143 +1,65 @@
 ﻿window.onload = inicializa;
 
-function inicializa() {
-    document.getElementById("añadir").addEventListener("click", introducirPersona);
-    document.getElementById("editar").addEventListener("click", clickarEditar);
-
-    ListadoPersonasConDepartamento();
-
-    var añadir = document.getElementById("addEmployeeModal");;
-    var editar = document.getElementById("editEmployeeModal");;
-    var eliminar = document.getElementById("deleteEmployeeModal");;
-}
-
-//animaciones
-
-//mc: Ignorable =”d”
-//Title =”MainWindow” Height =”450” Width =”800”& gt;
-//& lt; StackPanel VerticalAlignment =”Center”& gt;
-//& lt; Label x: Name =”MyLabel” Content =”Hello” HorizontalAlignment =”Center”/&gt;
-//    & lt; Button x: Name =”ButtonRotation” Width =”200” Height =”100” Content =”Press me”
-//Click =”Button_Click”/&gt;
-//    & lt; /StackPanel&gt;
-//    & lt; /Window&gt;
-
-private void Button_Click(object sender, RoutedEventArgs e)
+function inicializa()
 {
-    var fadeAnimation = new DoubleAnimation();
-    fadeAnimation.From = 1;
-    fadeAnimation.To = 0;
-
-    fadeAnimation.AutoReverse = true;
-
-    MyLabel.BeginAnimation(Label.OpacityProperty, fadeAnimation);
+    CargarSuperheroes()
 }
 
 
-function ListadoPersonasConDepartamento() {
+function CargarSuperheroes() {
     var miLlamada = new XMLHttpRequest();
-    miLlamada.open("GET", "https://crudtoflamaapi.azurewebsites.net/api/Departamento");
+    miLlamada.open("GET", "https://localhost:44361/Api/SuperheroesApi");
 
-    //Definición del estado
+    
     miLlamada.onreadystatechange = function () {
+        var table = document.getElementById("tableSuperheroe");//Instanciamos el elemento table de la página html
+        var arraySuperheroes = JSON.parse(miLlamada.responseText);//Obtenemos el array de personas (empleados)
+        if (miLlamada.readyState == 4 && miLlamada.status == 200)
+        {
+            for (i = 0; i < arraySuperheroes.length; i++)
+            {
+                var tr = document.createElement('tr');//Generemos un tag <tr>
 
-        if (miLlamada.readyState == 4 && miLlamada.status == 200) {
-            var arrayDepartamentos = JSON.parse(miLlamada.responseText);
-            cargarPersonas(arrayDepartamentos);
+                var td = document.createElement('td');//Creamos un tag <td> para el nombre del empleado
+                td.innerHTML = "" + arraySuperheroes[i].NombreSuperheroe + "";
+                tr.appendChild(td);
+
+                var tdButtons = document.createElement("td");//Agregamos un tag <td> para los botones
+
+                var checkBox = document.createElement("INPUT");
+                checkBox.setAttribute("type", "checkbox");
+                checkBox.setAttribute("value", arraySuperheroes[i].IdSuperheroe);
+                checkBox.setAttribute("id", arraySuperheroes[i].IdSuperheroe);
+                checkBox.setAttribute("class", "CHE");
+
+
+                tdButtons.appendChild(checkBox);
+
+                tr.appendChild(tdButtons);//Le asignamos la variable td al tag <tr> 
+
+                table.appendChild(tr);//Le asignamos la variable tr a la tabla
+            }
         }
     };
 
     miLlamada.send();
 }
 
-function clickarEditar(id) {
-    var guardar = document.getElementById("guardarE");
-    var persona = new Object();
-    persona = buscarPersonaPorID(id);
-    //document.getElementById("idE").value = persona.id;
-    document.getElementById("nombreE").value = persona.nombre;
-    document.getElementById("apellidosE").value = persona.apellidos;
-    document.getElementById("fechaE").value = persona.fechaNacimiento;
-    (persona.direccion == "" ? "" : document.getElementById("direccionE").value = persona.direccion);
-    (persona.telefono == "" ? "" : document.getElementById("telefonoE").value = persona.telefono);
-    (persona.foto == "" ? "" : document.getElementById("fotoE").value = persona.foto);
-    document.getElementById("editSelect").value = persona.idDepartamento;
-
-    guardar.onclick = function () {
-        var nuevaPersona = new Object();
-        nuevaPersona.id = id;
-        nuevaPersona.nombre = document.getElementById("nombreE").value;
-        nuevaPersona.apellidos = document.getElementById("apellidosE").value;
-        nuevaPersona.fechaNacimiento = document.getElementById("fechaE").value;
-        nuevaPersona.direccion = document.getElementById("direccionE").value;
-        nuevaPersona.telefono = document.getElementById("telefonoE").value;
-        nuevaPersona.foto = document.getElementById("fotoE").value;
-        nuevaPersona.idDepartamento = document.getElementById("editSelect").value;
-
-        var editarLlamada = new XMLHttpRequest();
-        editarLlamada.open("PUT", "https://crudtoflamaapi.azurewebsites.net/api/Persona/" + id, false);
-        editarLlamada.setRequestHeader('Content-type', 'application/json');
-
-        var json = JSON.stringify(nuevaPersona);
-
-        //Definicion estados
-        editarLlamada.onreadystatechange = function () {
-
-            if (editarLlamada.readyState < 4) {
+function VerMisionesPorSuperheroe()
+{
+    var miLlamada = new XMLHttpRequest();
+    miLlamada.open("GET", "https://localhost:44361/Api/MisionesApi");
 
 
-            }
-            else
-                if (editarLlamada.readyState == 4 && editarLlamada.status == 204) {
+    miLlamada.onreadystatechange = function ()
+    {
+        var table = document.getElementById("listadoSuperheroeConMisiones");//Instanciamos el elemento table de la página html
+        var arrayMisiones = JSON.parse(miLlamada.responseText);//Obtenemos el array de personas (empleados)
+        if (miLlamada.readyState == 4 && miLlamada.status == 200)
+        {
+            //me falta hacer el boton
+        }
+    };
 
-                    alert("Persona actualizada con exito");
-                    editar.style.display = "none";
-
-                }
-        };
-
-        editarLlamada.send(json);
-
-    }
-
-    editar.style.display = "block";
-
+    miLlamada.send();
 }
-
-//function pedirApellidos() {
-//    //alert("hola");
-
-//    var miLlamada = new XMLHttpRequest();
-//    miLlamada.open("GET", "https://crudtoflamaapi.azurewebsites.net/api/Persona");
-
-//    //Definicion estados
-//    miLlamada.onreadystatechange = function () {
-
-
-//        if (miLlamada.readyState < 4) {
-
-//            //alert(miLlamada.readyState);
-//            //aquí se puede poner una imagen de un reloj o un texto “Cargando”
-//            document.getElementById("divApellido").innerHTML = "Cargando...";
-//        }
-//        else
-//            if (miLlamada.readyState == 4 && miLlamada.status == 200) {
-//                //alert(miLlamada.status);
-
-//                //var arrayPersonas = JSON.parse(miLlamada.responseText);
-//                var mensage = miLlamada.responseText;
-
-//                var arrayPersonas = JSON.parse(mensage);
-
-
-
-//                //mensage.charAt().substring(18,40);
-//                //funcionQueHagaAlgoConLasPersonas(mensage);
-//                //document.getElementById("divApellido").innerHTML = mensage.substr(2, 20);
-//                document.getElementById("divApellido").innerHTML = arrayPersonas[0].apellidos;
-//            }
-
-//    };
-
-//    miLlamada.send();
-//}

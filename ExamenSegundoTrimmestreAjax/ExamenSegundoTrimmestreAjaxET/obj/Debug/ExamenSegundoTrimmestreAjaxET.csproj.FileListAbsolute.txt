@@ -3,3 +3,4 @@ D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrim
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\obj\Debug\ExamenSegundoTrimmestreAjaxET.csproj.CoreCompileInputs.cache
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\obj\Debug\ExamenSegundoTrimmestreAjaxET.dll
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\obj\Debug\ExamenSegundoTrimmestreAjaxET.pdb
+D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\obj\Debug\ExamenSegundoTrimmestreAjaxET.csprojAssemblyReference.cache

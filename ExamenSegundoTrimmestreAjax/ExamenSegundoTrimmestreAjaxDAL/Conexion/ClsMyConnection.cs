@@ -35,12 +35,11 @@ namespace ExamenSegundoTrimmestreAjaxDAL.Conexion
         public ClsMyConnection()
         {
             // this.server = "(local)";
-            //this.server = "nzhdeh.database.windows.net";
             this.server = "107-06";
-            this.dataBase = "Personas";
-            this.user = "nzhdeh";
+            this.dataBase = "Avengers";
+            this.user = "prueba";
             //this.pass = "123";
-            this.pass = "";
+            this.pass = "prueba";
 
         }
         //Con parámetros por si quisiera cambiar las conexiones
