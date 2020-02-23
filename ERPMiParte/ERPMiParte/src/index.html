@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+    <script src="components/Component.js"></script>
+</head>
+<body>
+    <div id="app">  </div>
+
+    <template id="ejemplo">
+
+        <table id="tableListadoPedoidos">
+            <tr class="header align-bottom">
+                <th scope="col">PEDIDO</th>
+                <th scope="col">PROVEEDOR</th>
+                <th scope="col">FECHA REGISTRADA</th>
+                <th scope="col">ESTADO</th>
+                <th scope="col">FECHA RECIBIMIENTO</th>
+                <th scope="col">PRECIO</th>
+                <th scope="col">DETALLES</th>
+            </tr>
+        </table>
+        <div>
+            <ul>
+                <li v-for="(curso, index) in cursos" :key="index">
+                    <a v-bind:href="curso.url">{{ curso.name }}</a>
+                </li>
+            </ul>
+            <div v-if="mostrar">
+                {{mensaje}}
+                <image v-bind:src="imagen" />
+
+            </div>
+            <button v-on:click="togleMostrar()">
+
+                mostrar/ocultar
+
+            </button>
+        </div>
+    </template>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
+</body>
+</html>

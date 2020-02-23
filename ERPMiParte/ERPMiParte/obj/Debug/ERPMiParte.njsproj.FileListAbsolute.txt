@@ -1,0 +1,2 @@
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ERPMiParte\ERPMiParte\obj\Debug\ERPMiParte.njsprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ERPMiParte\ERPMiParte\bin\Microsoft.NodejsTools.WebRole.dll

@@ -11,3 +11,15 @@ D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrim
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\System.Data.SqlClient.dll
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\Newtonsoft.Json.xml
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\System.Data.SqlClient.xml
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\ExamenSegundoTrimmestreAjaxDAL.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\ExamenSegundoTrimmestreAjaxDAL.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\ExamenSegundoTrimmestreAjaxET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\Newtonsoft.Json.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\System.Data.SqlClient.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\ExamenSegundoTrimmestreAjaxET.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\Newtonsoft.Json.xml
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\bin\Debug\System.Data.SqlClient.xml
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\obj\Debug\ExamenSegundoTrimmestreAjaxDAL.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\obj\Debug\ExamenSegundoTrimmestreAjaxDAL.csproj.CopyComplete
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\obj\Debug\ExamenSegundoTrimmestreAjaxDAL.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxDAL\obj\Debug\ExamenSegundoTrimmestreAjaxDAL.pdb

@@ -4,3 +4,7 @@ D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrim
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\obj\Debug\ExamenSegundoTrimmestreAjaxET.dll
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\obj\Debug\ExamenSegundoTrimmestreAjaxET.pdb
 D:\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\obj\Debug\ExamenSegundoTrimmestreAjaxET.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\bin\Debug\ExamenSegundoTrimmestreAjaxET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\bin\Debug\ExamenSegundoTrimmestreAjaxET.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\obj\Debug\ExamenSegundoTrimmestreAjaxET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSegundoTrimmestreAjax\ExamenSegundoTrimmestreAjaxET\obj\Debug\ExamenSegundoTrimmestreAjaxET.pdb
