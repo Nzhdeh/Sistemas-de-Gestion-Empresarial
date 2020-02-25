@@ -2,6 +2,10 @@ const app = new Vue({
     el: '#app',
     template: ejemplo,
     data: {
+		productos:
+		[
+		
+		],
         cursos: [
             { name: "Fundamentos de React", url: 'http://cursos.carlosazaustre.es/p/react-js' },
             { name: "Redux con React", url: 'http://cursos.carlosazaustre.es/p/curso-profesional-de-redux-y-react' },
@@ -19,23 +23,11 @@ const app = new Vue({
         cargarListadoProductos: function ()
         {
 
-            var miLlamada = new XMLHttpRequest();
-            miLlamada.open("GET", "https://localhost:44361/Api/SuperheroesApi");
+            var miLlamada = "https://proyectoerp.azurewebsites.net/api/Producto"
 
-            miLlamada.onreadystatechange = function ()
-            {
-                var table = document.getElementById("tableListadoPedoidos");//Instanciamos el elemento table de la página html
-                var arraySuperheroes = JSON.parse(miLlamada.responseText);//Obtenemos el array de productos
-                if (miLlamada.readyState == 4 && miLlamada.status == 200) {
-                    for (i = 0; i < arraySuperheroes.length; i++) {
-                        var tr = document.createElement('tr');//Generemos un tag <tr>
-
-                        table.appendChild(tr);//Le asignamos la variable tr a la tabla
-                    }
-                }
-            };
-
-            miLlamada.send();
+            this.$http.get(miLlamada).then(function(reponse){
+				this.prductos=reponse
+			})
         }
     }
 })
