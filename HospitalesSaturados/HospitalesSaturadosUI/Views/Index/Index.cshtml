@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    string mensajeError = ViewBag.MensajeError;
+}
+
+<h2>Acceso</h2>
+<body onload="window.history.forward()"> @*lo he puesto,para que bloquee la flecha atrás del navegador,pero no me gusta,funciona regular, 
+                                             pero si no lo pongo con las flechas vuelve a la página inicial y luego puede ir a los detalles sin escribir el código*@
+    @using (Html.BeginForm("Entrar", "Index", FormMethod.Post))
+    {
+        <label>
+            <input type="text" name="codigo" id="codigoMedico" />
+        </label>
+
+        <label>
+            <input type="submit" value="Entrar" />
+        </label>
+    }
+    @if (ViewBag.MensajeError != null)
+    {
+        <label>
+            <h3 style="color:red">@mensajeError</h3>
+        </label>
+    }
+</body>
+
+
+
+

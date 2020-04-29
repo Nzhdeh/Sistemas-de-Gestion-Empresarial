@@ -17,6 +17,7 @@ D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\bin\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.deps.json
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\bin\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\bin\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\obj\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.csproj.CoreCompileInputs.cache
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\obj\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.AssemblyInfoInputs.cache
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\obj\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.AssemblyInfo.cs
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaEntidadesWeb\obj\Debug\netstandard2.0\10-CRUDPersonaEntidadesWeb.dll

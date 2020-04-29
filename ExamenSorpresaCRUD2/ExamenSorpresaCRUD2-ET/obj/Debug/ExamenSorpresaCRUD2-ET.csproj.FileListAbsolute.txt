@@ -1,5 +1,6 @@
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-ET\bin\Debug\ExamenSorpresaCRUD2-ET.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-ET\bin\Debug\ExamenSorpresaCRUD2-ET.pdb
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-ET\obj\Debug\ExamenSorpresaCRUD2-ET.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-ET\obj\Debug\ExamenSorpresaCRUD2-ET.csproj.CoreCompileInputs.cache
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-ET\obj\Debug\ExamenSorpresaCRUD2-ET.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-ET\obj\Debug\ExamenSorpresaCRUD2-ET.pdb

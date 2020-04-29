@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cBFxIPeWRtJPL8K2/Pfba0pGSAkR665IUXAi9/MLRDpLo3KM+E4tR4ZSnE9WCP6in/JHDmQwQJ5GWPHQfWvLEA==",
+  "success": true,
+  "projectFilePath": "E:\\Git Hub\\Sistemas-de-Gestion-Empresarial\\10-CRUDPersonasWeb\\10-CRUDPersonaEntidadesWeb\\10-CRUDPersonaEntidadesWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nzhdeh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Nzhdeh\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

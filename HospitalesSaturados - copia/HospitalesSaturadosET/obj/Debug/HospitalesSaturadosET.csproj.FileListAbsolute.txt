@@ -1,0 +1,6 @@
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\HospitalesSaturados\HospitalesSaturadosET\bin\Debug\HospitalesSaturadosET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\HospitalesSaturados\HospitalesSaturadosET\bin\Debug\HospitalesSaturadosET.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\HospitalesSaturados\HospitalesSaturadosET\obj\Debug\HospitalesSaturadosET.csproj.CoreCompileInputs.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\HospitalesSaturados\HospitalesSaturadosET\obj\Debug\HospitalesSaturadosET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\HospitalesSaturados\HospitalesSaturadosET\obj\Debug\HospitalesSaturadosET.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\HospitalesSaturados\HospitalesSaturadosET\obj\Debug\HospitalesSaturadosET.csprojAssemblyReference.cache

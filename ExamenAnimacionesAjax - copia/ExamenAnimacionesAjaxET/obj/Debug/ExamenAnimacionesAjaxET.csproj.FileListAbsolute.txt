@@ -1,0 +1,5 @@
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxET\bin\Debug\ExamenAnimacionesAjaxET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxET\bin\Debug\ExamenAnimacionesAjaxET.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxET\obj\Debug\ExamenAnimacionesAjaxET.csproj.CoreCompileInputs.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxET\obj\Debug\ExamenAnimacionesAjaxET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxET\obj\Debug\ExamenAnimacionesAjaxET.pdb

@@ -1,0 +1,13 @@
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\bin\Debug\ExamenAnimacionesAjaxBL.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\bin\Debug\ExamenAnimacionesAjaxBL.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\bin\Debug\ExamenAnimacionesAjaxDAL.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\bin\Debug\ExamenAnimacionesAjaxET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\bin\Debug\Newtonsoft.Json.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\bin\Debug\ExamenAnimacionesAjaxDAL.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\bin\Debug\ExamenAnimacionesAjaxET.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\bin\Debug\Newtonsoft.Json.xml
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\obj\Debug\ExamenAnimacionesAjaxBL.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\obj\Debug\ExamenAnimacionesAjaxBL.csproj.CoreCompileInputs.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\obj\Debug\ExamenAnimacionesAjaxBL.csproj.CopyComplete
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\obj\Debug\ExamenAnimacionesAjaxBL.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenAnimacionesAjax\ExamenAnimacionesAjaxBL\obj\Debug\ExamenAnimacionesAjaxBL.pdb

@@ -186,9 +186,6 @@ D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\bin\
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.csproj.CopyComplete
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.dll
 D:\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.pdb
-E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.csprojAssemblyReference.cache
-E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.dll
-E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.pdb
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\bin\10-CRUDPersonasWeb-UI.dll.config
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\bin\10-CRUDPersonasWeb-UI.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\bin\10-CRUDPersonasWeb-UI.pdb
@@ -372,4 +369,8 @@ E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\bin\es\System.Net.Http.Formatting.resources.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\bin\es\System.Web.Http.resources.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.csproj.CoreCompileInputs.cache
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.csproj.CopyComplete
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonasWeb-UI\obj\Debug\10-CRUDPersonasWeb-UI.pdb

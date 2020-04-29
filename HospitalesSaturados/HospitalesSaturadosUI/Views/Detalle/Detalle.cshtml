@@ -1,0 +1,88 @@
+﻿@model HospitalesSaturadosUI.Models.ClsControlDiarioConNombreYApellidosMedico
+
+@{
+    ViewBag.Title = "Detalle";
+    string fechaDeHoy = DateTime.Today.ToShortDateString();
+}
+
+@using (Html.BeginForm("Volver", "Detalle"))
+{
+    <div>
+        <h2>Control diario del Médico</h2>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                Nombre:
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NombreMedico)
+            </dd>
+
+            <dt>
+                Apellidos:
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ApellidosMedico)
+            </dd>
+
+            <dt>
+                Fecha:
+            </dt>
+
+            <dd>
+                @fechaDeHoy @*lo pongo así,porque anunque el médico no tenga tareas quiero mostrar la fecha*@
+            </dd>
+
+            @if (ViewBag.Codigo == null)
+            {
+                <br />
+                <br />
+
+                <dt>
+                    Primera Sesion:
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PrimeraSesion)
+                </dd>
+                <br />
+                <dt>
+                    Segunda Sesion:
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.SegundaSesion)
+                </dd>
+                <br />
+                <dt>
+                    Tercera Sesion:
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.TerceraSesion)
+                </dd>
+                <br />
+                <dt>
+                    Cuarta Sesion:
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CuartaSesion)
+                </dd>
+            }
+            else
+            {
+                <h1 style="color:red">
+                    @ViewBag.Codigo
+                </h1>
+            }
+        </dl>
+    </div>
+    <br />
+
+    <button type="submit" style="height:unset">Volver</button>
+}
+
+

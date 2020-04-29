@@ -1,0 +1,6 @@
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\CuestionarioCoronavirus\CuestionarioCoronavirusET\bin\Debug\CuestionarioCoronavirusET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\CuestionarioCoronavirus\CuestionarioCoronavirusET\bin\Debug\CuestionarioCoronavirusET.pdb
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\CuestionarioCoronavirus\CuestionarioCoronavirusET\obj\Debug\CuestionarioCoronavirusET.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\CuestionarioCoronavirus\CuestionarioCoronavirusET\obj\Debug\CuestionarioCoronavirusET.csproj.CoreCompileInputs.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\CuestionarioCoronavirus\CuestionarioCoronavirusET\obj\Debug\CuestionarioCoronavirusET.dll
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\CuestionarioCoronavirus\CuestionarioCoronavirusET\obj\Debug\CuestionarioCoronavirusET.pdb

@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<br />
+
+@using (Html.BeginForm("Empezar", "Index"))
+{
+    <h3>
+        Los datos recogidos en esta aplicación no tienen finalidades comerciales.<br />
+        Esto no es un test médico,por lo tanto puede no hacerle caso lo que le indique la aplicación.
+    </h3>
+    <br />
+
+
+    <button type="submit">De acuerdo, Empezar</button>
+}
+
+
+@*<h3>
+        Los datos recogidos en esta aplicación no tienen finalidades comerciales.<br />
+        Esto no es un test médico,por lo tanto puede no hacerle caso lo que le indique la aplicación.
+    </h3>
+    <br />
+    <div height="50" width="50">
+        @Html.ActionLink("De acuerdo, Empezar", "List", "Cuestionario")
+    </div>*@

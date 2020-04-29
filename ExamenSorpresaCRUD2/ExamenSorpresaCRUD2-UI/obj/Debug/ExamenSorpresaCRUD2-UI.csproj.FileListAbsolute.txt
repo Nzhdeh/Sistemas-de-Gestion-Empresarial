@@ -75,6 +75,7 @@ E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRU
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-UI\bin\es\System.Web.Helpers.resources.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-UI\bin\es\System.Web.Mvc.resources.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-UI\obj\Debug\ExamenSorpresaCRUD2-UI.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-UI\obj\Debug\ExamenSorpresaCRUD2-UI.csproj.CoreCompileInputs.cache
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-UI\obj\Debug\ExamenSorpresaCRUD2-UI.csproj.CopyComplete
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-UI\obj\Debug\ExamenSorpresaCRUD2-UI.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-UI\obj\Debug\ExamenSorpresaCRUD2-UI.pdb

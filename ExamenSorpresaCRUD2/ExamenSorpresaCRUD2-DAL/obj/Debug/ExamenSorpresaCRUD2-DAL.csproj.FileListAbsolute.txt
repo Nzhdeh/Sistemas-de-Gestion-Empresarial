@@ -3,6 +3,7 @@ E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRU
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-DAL\bin\Debug\ExamenSorpresaCRUD2-ET.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-DAL\bin\Debug\ExamenSorpresaCRUD2-ET.pdb
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-DAL\obj\Debug\ExamenSorpresaCRUD2-DAL.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-DAL\obj\Debug\ExamenSorpresaCRUD2-DAL.csproj.CoreCompileInputs.cache
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-DAL\obj\Debug\ExamenSorpresaCRUD2-DAL.csproj.CopyComplete
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-DAL\obj\Debug\ExamenSorpresaCRUD2-DAL.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\ExamenSorpresaCRUD2\ExamenSorpresaCRUD2-DAL\obj\Debug\ExamenSorpresaCRUD2-DAL.pdb

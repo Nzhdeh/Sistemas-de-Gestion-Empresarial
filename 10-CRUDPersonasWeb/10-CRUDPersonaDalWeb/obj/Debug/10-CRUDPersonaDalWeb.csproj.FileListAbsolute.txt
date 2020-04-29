@@ -204,6 +204,7 @@ E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaDalW
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaDalWeb\bin\Debug\10-CRUDPersonaEntidadesWeb.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaDalWeb\bin\Debug\10-CRUDPersonaEntidadesWeb.pdb
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaDalWeb\obj\Debug\10-CRUDPersonaDalWeb.csprojAssemblyReference.cache
+E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaDalWeb\obj\Debug\10-CRUDPersonaDalWeb.csproj.CoreCompileInputs.cache
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaDalWeb\obj\Debug\10-CRUDPersonaDalWeb.csproj.CopyComplete
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaDalWeb\obj\Debug\10-CRUDPersonaDalWeb.dll
 E:\Git Hub\Sistemas-de-Gestion-Empresarial\10-CRUDPersonasWeb\10-CRUDPersonaDalWeb\obj\Debug\10-CRUDPersonaDalWeb.pdb

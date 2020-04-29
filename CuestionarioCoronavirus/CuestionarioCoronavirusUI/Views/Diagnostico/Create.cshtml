@@ -1,0 +1,89 @@
+﻿@model CuestionarioCoronavirusET.ClsPersona
+
+
+@{
+    ViewBag.Title = null;
+
+    bool diag = false;
+
+    if (ViewBag.Diagnostico != null)
+    {
+        diag = Convert.ToBoolean(ViewBag.Diagnostico.ToLower());
+    }
+}
+
+<div>
+    @if (diag)
+    {
+        <h1 style="color:red">Posible contagio. Llame a los teléfonos 900 400 061 / 955 545 060</h1>
+    }
+    else 
+    {
+        <h1 style="color:green">Parece que no está contagiado</h1>
+    }
+</div>
+
+@using (Html.BeginForm())
+{
+
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.DniPersona, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DniPersona, new { htmlAttributes = new { @class = "form-control", required = "required", title = "El dni es obligatorio" } })
+                @Html.ValidationMessageFor(model => model.DniPersona, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NombrePersona, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NombrePersona, new { htmlAttributes = new { @class = "form-control", required = "required", title = "El nombre es obligatorio" } })
+                @Html.ValidationMessageFor(model => model.NombrePersona, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ApellidosPerson, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ApellidosPerson, new { htmlAttributes = new { @class = "form-control", required = "required", title = "Los apellidos son obligatorios" } })
+                @Html.ValidationMessageFor(model => model.ApellidosPerson, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Telefono, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Telefono, new { htmlAttributes = new { @class = "form-control", required = "required", title = "El teléfono es obligatorio" } })
+                @Html.ValidationMessageFor(model => model.Telefono, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Direccion, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Direccion, new { htmlAttributes = new { @class = "form-control", required = "required", title = "La dirección es obligatoria" } })
+                @Html.ValidationMessageFor(model => model.Direccion, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" hidden>
+            @if (ViewBag.Diagnostico != null)
+            {
+                @Html.TextBoxFor(model => model.Diagnostico, new { @Value = diag })
+            }
+
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Enviar datos" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
