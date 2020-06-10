@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../JavaScript/Ajax.js"></script>
+    <link href="../CSS/estilo.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="contenedor">
+        <div id="paraCentrar">
+            <h1>Insertar prueba y palabras</h1>
+            <br>
+            <div id="insertando">
+                <label for="fpalabra" size="50">Insertar palabra:</label>
+                <form>
+                    <input type="text" id="palabra" name="palabra"><br><br>
+                </form>
+                <br>
+
+                <label for="fdificultad">Dificultad:</label>
+
+                <!--si me da tiempo lo cambio-->
+                <select name="dificultad" id="dificultad">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Añadir palabra" onclick="InsertarPalabraEnLaLista(palabra.value, dificultad.value)">
+            </div>
+
+
+            <div id="tiempo">
+                <h3 id="tiempoMaximo">00:00:00</h3>
+            </div>
+            <br><br><br><br>
+
+            <div id="listadoPalabras">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <!--<th>palabra</th>
+                    <th>dificultad</th>-->
+                        </tr>
+                    </thead>
+                    <tbody id="tablePalabras"></tbody>
+                </table>
+                <br><br>
+                <input type="submit" value="Guardar" onclick="GuardarPruebaYPalabras()">
+            </div>
+        </div><!--para centrar-->
+    </div><!--contenedor-->
+</body>
+</html>

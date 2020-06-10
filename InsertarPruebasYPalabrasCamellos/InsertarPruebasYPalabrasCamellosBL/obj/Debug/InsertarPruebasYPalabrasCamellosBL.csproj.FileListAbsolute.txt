@@ -1,0 +1,13 @@
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\bin\Debug\InsertarPruebasYPalabrasCamellosBL.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\bin\Debug\InsertarPruebasYPalabrasCamellosBL.pdb
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\bin\Debug\InsertarPruebasYPalabrasCamellosDAL.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\bin\Debug\InsertarPruebasYPalabrasCamellosET.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\bin\Debug\System.Data.SqlClient.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\bin\Debug\InsertarPruebasYPalabrasCamellosDAL.pdb
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\bin\Debug\InsertarPruebasYPalabrasCamellosET.pdb
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\bin\Debug\System.Data.SqlClient.xml
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\obj\Debug\InsertarPruebasYPalabrasCamellosBL.csprojAssemblyReference.cache
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\obj\Debug\InsertarPruebasYPalabrasCamellosBL.csproj.CoreCompileInputs.cache
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\obj\Debug\InsertarPruebasYPalabrasCamellosBL.csproj.CopyComplete
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\obj\Debug\InsertarPruebasYPalabrasCamellosBL.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosBL\obj\Debug\InsertarPruebasYPalabrasCamellosBL.pdb

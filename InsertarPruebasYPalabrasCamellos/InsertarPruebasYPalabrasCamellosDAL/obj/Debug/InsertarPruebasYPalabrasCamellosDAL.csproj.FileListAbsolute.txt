@@ -1,0 +1,11 @@
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\bin\Debug\InsertarPruebasYPalabrasCamellosDAL.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\bin\Debug\InsertarPruebasYPalabrasCamellosDAL.pdb
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\bin\Debug\InsertarPruebasYPalabrasCamellosET.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\bin\Debug\System.Data.SqlClient.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\bin\Debug\InsertarPruebasYPalabrasCamellosET.pdb
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\bin\Debug\System.Data.SqlClient.xml
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\obj\Debug\InsertarPruebasYPalabrasCamellosDAL.csprojAssemblyReference.cache
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\obj\Debug\InsertarPruebasYPalabrasCamellosDAL.csproj.CoreCompileInputs.cache
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\obj\Debug\InsertarPruebasYPalabrasCamellosDAL.csproj.CopyComplete
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\obj\Debug\InsertarPruebasYPalabrasCamellosDAL.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosDAL\obj\Debug\InsertarPruebasYPalabrasCamellosDAL.pdb

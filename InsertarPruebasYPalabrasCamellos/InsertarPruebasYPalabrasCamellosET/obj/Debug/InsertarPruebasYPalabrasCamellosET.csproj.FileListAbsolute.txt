@@ -1,0 +1,8 @@
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosET\bin\Debug\InsertarPruebasYPalabrasCamellosET.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosET\bin\Debug\InsertarPruebasYPalabrasCamellosET.pdb
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosET\bin\Debug\System.Data.SqlClient.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosET\bin\Debug\System.Data.SqlClient.xml
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosET\obj\Debug\InsertarPruebasYPalabrasCamellosET.csproj.CoreCompileInputs.cache
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosET\obj\Debug\InsertarPruebasYPalabrasCamellosET.csproj.CopyComplete
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosET\obj\Debug\InsertarPruebasYPalabrasCamellosET.dll
+D:\Git Hub\Sistemas-de-Gestion-Empresarial\Insertar Pruebas Y Palabras\InsertarPruebasYPalabrasCamellos\InsertarPruebasYPalabrasCamellosET\obj\Debug\InsertarPruebasYPalabrasCamellosET.pdb
